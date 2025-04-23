@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:iconsax/iconsax.dart';
 import 'pages/halaman_counter.dart';
 import 'pages/halaman_api.dart';
 import 'pages/halaman_profil.dart';
@@ -41,9 +40,9 @@ class _HomeScreenState extends State<HomeScreen> {
       body: _pages[_selectedIndex],
       bottomNavigationBar: BottomNavigationBar(
         items: const [
-          BottomNavigationBarItem(icon: Icon(Iconsax.add), label: 'Counter'),
-          BottomNavigationBarItem(icon: Icon(Iconsax.folder), label: 'API'),
-          BottomNavigationBarItem(icon: Icon(Iconsax.user), label: 'Profil'),
+          BottomNavigationBarItem(icon: Icon(Icons.add), label: 'Counter'),
+          BottomNavigationBarItem(icon: Icon(Icons.folder), label: 'API'),
+          BottomNavigationBarItem(icon: Icon(Icons.person), label: 'Profil'),
         ],
         currentIndex: _selectedIndex,
         onTap: _onItemTapped,

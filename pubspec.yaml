@@ -1,4 +1,4 @@
-name: project_1
+name: pbm_flutter_3_halaman
 description: A simple Flutter project.
 
 environment:
@@ -8,8 +8,6 @@ dependencies:
   flutter:
     sdk: flutter
   http: ^1.3.0
-  cupertino_icons: ^1.0.2
-  iconsax: ^0.0.8
 
 flutter:
   uses-material-design: true
