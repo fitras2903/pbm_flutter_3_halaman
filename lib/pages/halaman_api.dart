@@ -71,10 +71,7 @@ class _HalamanApiState extends State<HalamanApi> {
                     child: ListTile(
                       leading: CircleAvatar(
                         backgroundColor: Colors.purple[100],
-                        child: Icon(
-                          Iconsax.building_3,
-                          color: Colors.deepPurple,
-                        ),
+                        child: Icon(Icons.apartment, color: Colors.deepPurple),
                       ),
                       title: Text(
                         university.name,
@@ -88,6 +85,13 @@ class _HalamanApiState extends State<HalamanApi> {
                   );
                 },
               ),
+      
+      floatingActionButton: FloatingActionButton(
+        onPressed: fetchData,
+        backgroundColor: Colors.purple,
+        child: Icon(Icons.refresh),
+        tooltip: 'Refresh Data',
+      ),
     );
   }
 }
