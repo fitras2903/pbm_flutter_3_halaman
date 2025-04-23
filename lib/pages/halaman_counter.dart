@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:iconsax/iconsax.dart';
 
 class HalamanCounter extends StatefulWidget {
   @override
@@ -50,7 +49,7 @@ class _HalamanCounterState extends State<HalamanCounter> {
                   children: [
                     ElevatedButton.icon(
                       onPressed: _increment,
-                      icon: Icon(Iconsax.add),
+                      icon: Icon(Icons.add),
                       label: Text('Tambah'),
                       style: ElevatedButton.styleFrom(
                         backgroundColor: Colors.purple,
@@ -63,7 +62,7 @@ class _HalamanCounterState extends State<HalamanCounter> {
                     SizedBox(width: 16),
                     ElevatedButton.icon(
                       onPressed: _decrement,
-                      icon: Icon(Iconsax.minus),
+                      icon: Icon(Icons.remove),
                       label: Text('Kurang'),
                       style: ElevatedButton.styleFrom(
                         backgroundColor: Colors.pink[200],
