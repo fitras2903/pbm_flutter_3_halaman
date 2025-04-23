@@ -1,7 +1,6 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
-import 'package:iconsax/iconsax.dart';
 
 class University {
   final String name;
@@ -85,7 +84,7 @@ class _HalamanApiState extends State<HalamanApi> {
                   );
                 },
               ),
-      
+    
       floatingActionButton: FloatingActionButton(
         onPressed: fetchData,
         backgroundColor: Colors.purple,
